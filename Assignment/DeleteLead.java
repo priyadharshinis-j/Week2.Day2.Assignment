@@ -151,7 +151,7 @@ public class DeleteLead
 		WebElement verifyMessage = driver.findElement(By.xpath("//div[text()='No records to display']"));
 		String recordsDisplay = verifyMessage.getText();
 		System.out.println("Successful Deletion "+recordsDisplay);
-		Thread.sleep(2000);
+		
 
 		//18.Close the browser (Do not log out)
 		driver.close();
